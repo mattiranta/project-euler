@@ -1,7 +1,7 @@
 # Project Euler 
 
-## Languages
+## Languages:
 
-### Python
+Python
 
-### F-Sharp
+F-Sharp
