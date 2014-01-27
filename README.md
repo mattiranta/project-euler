@@ -1,7 +1,7 @@
-Folder structure:
+# Project Euler 
 
--problem-id
-   |
-   |---Python
-   |---F_Sharp
-   |---C_Sharp
+## Languages:
+
+Python
+
+F-Sharp
