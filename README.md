@@ -17,9 +17,9 @@ F-Sharp
 7. - 10001 prime: 104743
 8. - Greatest product of five consecutive digits: 40824
 9. - a*b*c = 31875000
-10. -
-11. -
-12. -
+10. - .
+11. - .
+12. - .
 13. -
 14. -
 15. -
