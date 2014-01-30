@@ -3,7 +3,8 @@
 import sys
 
 input = \
-"""75 
+"""
+75
 95 64
 17 47 82
 18 35 87 10
@@ -21,12 +22,20 @@ input = \
 
 def read_input(input):
     rows = []
-    for line in input: 
-        print(line)
-        rows.append([int(number) for number in line.split(" ")])
+    for line in input.split('\n'):
+        if line:
+	        rows.append([int(number) for number in line.split(" ") if number.strip()])
+
     return rows
 
 def max_sum(rows):
+	sum_list = [0] * len(rows[-1])
+	print(len(sum_list))
+	print('---------')
+	for i in rows[::-1]:
+		for j in i[1:]:
+
+
 	sum = 0
 	return sum
 
