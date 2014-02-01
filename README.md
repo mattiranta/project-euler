@@ -17,11 +17,24 @@ F-Sharp
 7.  [ ] -  10001 prime: 104743
 8.  [ ] -  Greatest product of five consecutive digits: 40824
 9.  [ ] -  a*b*c = 31875000
-10. [ ]
+10. [ ] -  Sum of primes below 2 million: 142913828922
 11. [ ] -  Greatest product of four adjacent: 70600674
 12. [ ]
 13. [ ] -  First ten digits of the sum: 5537376230
 14. [ ] -  Longest chain has 524 elems and starts from 837799
 15. [ ]
 16. [ ] -  Sum of the digits of the number 2^1000: 1366
-
+17. [ ] -  
+18. [ ] -  
+19. [ ] -  
+20. [ ] -  
+21. [ ] -  
+22. [ ] -  
+23. [ ] -  
+24. [ ] -  
+25. [ ] -  
+26. [ ] -  
+27. [ ] -  
+28. [ ] -  
+29. [ ] -  
+30. [ ] -  
