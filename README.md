@@ -21,7 +21,7 @@ F-Sharp
 11. [ ]
 12. [ ]
 13. [ ]
-14. [ ]
+14. [ ] -  Longest chain has 524 elems and starts from 837799
 15. [ ]
 16. [ ] -  Sum of the digits of the number 2^1000: 1366
 
