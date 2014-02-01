@@ -18,9 +18,9 @@ F-Sharp
 8.  [ ] -  Greatest product of five consecutive digits: 40824
 9.  [ ] -  a*b*c = 31875000
 10. [ ]
-11. [ ]
+11. [ ] -  Greatest product of four adjacent: 70600674
 12. [ ]
-13. [ ]
+13. [ ] -  First ten digits of the sum: 5537376230
 14. [ ] -  Longest chain has 524 elems and starts from 837799
 15. [ ]
 16. [ ] -  Sum of the digits of the number 2^1000: 1366
