@@ -19,7 +19,7 @@ F-Sharp
 9.  [ ] -  a*b*c = 31875000
 10. [ ] -  Sum of primes below 2 million: 142913828922
 11. [ ] -  Greatest product of four adjacent: 70600674
-12. [ ]
+12. [ ] -  Value of the first triangle number with over 500 divisors: 76576500 (576 divisors)
 13. [ ] -  First ten digits of the sum: 5537376230
 14. [ ] -  Longest chain has 524 elems and starts from 837799
 15. [ ]
@@ -27,7 +27,7 @@ F-Sharp
 17. [ ] -  
 18. [ ] -  
 19. [ ] -  
-20. [ ] -  
+20. [ ] -  Sum of the digits in the number 100!: 648
 21. [ ] -  
 22. [ ] -  
 23. [ ] -  
