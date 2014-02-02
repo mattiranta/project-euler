@@ -29,7 +29,7 @@ F-Sharp
 19. [ ] -  
 20. [ ] -  Sum of the digits in the number 100!: 648
 21. [ ] -  
-22. [ ] -  
+22. [ ] -  Total of all name scores: 871198282
 23. [ ] -  
 24. [ ] -  
 25. [ ] -  First term in the Fibonacci sequence to contain 1000 digits: 4782
