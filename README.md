@@ -32,7 +32,7 @@ F-Sharp
 22. [ ] -  
 23. [ ] -  
 24. [ ] -  
-25. [ ] -  
+25. [ ] -  First term in the Fibonacci sequence to contain 1000 digits: 4782
 26. [ ] -  
 27. [ ] -  
 28. [ ] -  
