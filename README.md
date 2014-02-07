@@ -12,16 +12,49 @@ F-Sharp
 2.  [x] -  Sum of the even-valued Fibonacci terms below four million: 4613732
 3.  [ ] -  Largest prime factor: 6857
 4.  [ ] -  Largest palindrome of two 3-digit number: 906609 = 993 x 913
-5.  [ ] -  Smallest positive number, evenly divisible by all of the numbers from 1 to 20: 232792560
+5.  [ ] -  Smallest positive evenly divisible by all 1..20: 232792560
 6.  [ ] -  Difference: 25164150
 7.  [ ] -  10001 prime: 104743
 8.  [ ] -  Greatest product of five consecutive digits: 40824
 9.  [ ] -  a*b*c = 31875000
-10. [ ]
-11. [ ]
-12. [ ]
-13. [ ]
-14. [ ]
+10. [ ] -  Sum of primes below 2 million: 142913828922
+11. [ ] -  Greatest product of four adjacent: 70600674
+12. [ ] -  Value of the first triangle number with over 500 divisors: 76576500 (576 divisors)
+13. [ ] -  First ten digits of the sum: 5537376230
+14. [ ] -  Longest chain has 524 elems and starts from 837799
 15. [ ]
 16. [ ] -  Sum of the digits of the number 2^1000: 1366
-
+17. [ ] -  
+18. [ ] -  
+19. [ ] -  
+20. [ ] -  Sum of the digits in the number 100!: 648
+21. [ ] -  
+22. [ ] -  Total of all name scores: 871198282
+23. [ ] -  
+24. [ ] -  
+25. [ ] -  First term in the Fibonacci sequence to contain 1000 digits: 4782
+26. [ ] -  
+27. [ ] -  
+28. [ ] -  
+29. [ ] -  
+30. [ ] -  
+31. [ ] -  
+32. [ ] -  
+33. [ ] -  
+34. [ ] -  
+35. [ ] -  
+36. [ ] -  
+37. [ ] -  
+38. [ ] -  
+39. [ ] -  
+40. [ ] -  
+41. [ ] -  
+42. [ ] -  
+43. [ ] -  
+44. [ ] -  
+45. [ ] -  
+46. [ ] -  
+47. [ ] -  
+48. [ ] -  Last ten digits of the series 1^1 + 2^2 + ... 1000^1000: 9110846700
+49. [ ] -  
+50. [ ] -  
