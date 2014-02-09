@@ -32,7 +32,7 @@ Status
 21. [ ] -  
 22. [ ] -  Total of all name scores: 871198282
 23. [ ] -  
-24. [ ] -  
+24. [ ] -  Millionth lexicographic permutation: 2783915460
 25. [ ] -  First term in the Fibonacci sequence to contain 1000 digits: 4782
 26. [ ] -  
 27. [ ] -  
