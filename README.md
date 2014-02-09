@@ -27,7 +27,7 @@ Status
 16. [ ] -  Sum of the digits of the number 2^1000: 1366
 17. [ ] -  Letters used: 21124
 18. [ ] -  Max sum: 1074
-19. [ ] -  
+19. [ ] -  Sundays as first of month: 171
 20. [ ] -  Sum of the digits in the number 100!: 648
 21. [ ] -  
 22. [ ] -  Total of all name scores: 871198282
