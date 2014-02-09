@@ -10,55 +10,62 @@
 
 import sys
 
-def count_letters(words):
-	letters = 0
-	#print(words)
-	for word in words:
-		#print(word)
-		letters += len(word.replace(' ', ''))
+def get_as_text(i, n):
+	ret = ''
 
-	return letters
+	if i < 20:
+		ret = n[i]
+	elif i < 100 and i % 10 == 0:
+		ret = n[(i/10) * 10]
+	elif i < 100:
+		ret = n[(i/10) * 10] + '-' + n[i % 10]
+	elif i == 1000:
+		ret = n[i / 1000] + ' ' + n[1000]
+	elif i % 100 == 0:
+		ret = n[i / 100] + ' ' + n[100]
+	else:
+		ret = n[i / 100] + ' ' + n[100] + ' and ' + get_as_text(i % 100, n)
 
-def numbers_as_words():
-	n = [''] * 1000
+	return ret
 
-	n[0] = 'one'
-	n[1] = 'two'
-	n[2] = 'three'
-	n[3] = 'four'
-	n[4] = 'five'
-	n[5] = 'six'
-	n[6] = 'seven'
-	n[7] = 'eight'
-	n[8] = 'nine'
-	n[9] = 'ten'
-	n[10] = 'eleven'
-	n[11] = 'twelve'
-	n[12] = 'thirteen'
-	n[13] = 'fourteen'
-	n[14] = 'fifteen'
-	n[15] = 'sixteen'
-	n[16] = 'seventeen'
-	n[17] = 'eighteen'
-	n[18] = 'nineteen'
-	n[19] = 'twenty'
-	n[29] = 'thirty'
-	n[39] = 'forty'
-	n[49] = 'fifty'
-	n[59] = 'sixty'
-	n[69] = 'seventy'
-	n[79] = 'eighty'
-	n[89] = 'ninety'
-	n[99] = 'hundred'
-	n[999] = 'thousand'
-	print(n)
-	return n
+def letter_count():
+	n = [''] * 1001
+	n[1] = 'one'
+	n[2] = 'two'
+	n[3] = 'three'
+	n[4] = 'four'
+	n[5] = 'five'
+	n[6] = 'six'
+	n[7] = 'seven'
+	n[8] = 'eight'
+	n[9] = 'nine'
+	n[10] = 'ten'
+	n[11] = 'eleven'
+	n[12] = 'twelve'
+	n[13] = 'thirteen'
+	n[14] = 'fourteen'
+	n[15] = 'fifteen'
+	n[16] = 'sixteen'
+	n[17] = 'seventeen'
+	n[18] = 'eighteen'
+	n[19] = 'nineteen'
+	n[20] = 'twenty'
+	n[30] = 'thirty'
+	n[40] = 'forty'
+	n[50] = 'fifty'
+	n[60] = 'sixty'
+	n[70] = 'seventy'
+	n[80] = 'eighty'
+	n[90] = 'ninety'
+	n[100] = 'hundred'
+	n[1000] = 'thousand'
+
+	return sum(len(get_as_text(i, n).replace(' ', '').replace('-', '')) for i in range(1, 1001))
 	
 # Main:
 import time
 start = time.clock()
-letter_count = count_letters(numbers_as_words())
-print("Letters used: {}".format(letter_count))
+print("Letters used: {}".format(letter_count()))
 print ("Time: {}".format(time.clock() - start))
 
 

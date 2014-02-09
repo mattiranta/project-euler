@@ -25,7 +25,7 @@ Status
 14. [ ] -  Longest chain has 524 elems and starts from 837799
 15. [ ]
 16. [ ] -  Sum of the digits of the number 2^1000: 1366
-17. [ ] -  
+17. [ ] -  Letters used: 21124
 18. [ ] -  Max sum: 1074
 19. [ ] -  
 20. [ ] -  Sum of the digits in the number 100!: 648
@@ -37,7 +37,7 @@ Status
 26. [ ] -  
 27. [ ] -  
 28. [ ] -  
-29. [ ] -  
+29. [ ] -  Distinct powers: 9183
 30. [ ] -  
 31. [ ] -  
 32. [ ] -  
