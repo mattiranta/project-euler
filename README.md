@@ -1,12 +1,13 @@
-# Project Euler
+Project Euler
+====================
 
-## Languages:
+Languages:
+--------------------
 
-Python
+Python, F# 
 
-F-Sharp
-
-## Status
+Status
+--------------------
 
 1.  [x] -  Sum of all the multiples of 3 or 5 below 1000: 233168
 2.  [x] -  Sum of the even-valued Fibonacci terms below four million: 4613732
