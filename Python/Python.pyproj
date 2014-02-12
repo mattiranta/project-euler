@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1ea3a5fc-30a4-45d0-915e-488e8258512a}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>25\main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>3.2</InterpreterVersion>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Compile Include="1\main.py" />
+    <Compile Include="10\main.py" />
+    <Content Include="11\input.txt" />
+    <Compile Include="11\main.py" />
+    <Compile Include="12\main.py" />
+    <Content Include="13\input.txt" />
+    <Compile Include="13\main.py" />
+    <Compile Include="14\main.py" />
+    <Compile Include="16\main.py" />
+    <Compile Include="17\main.py" />
+    <Compile Include="18\main.py" />
+    <Compile Include="19\main.py" />
+    <Compile Include="2\main.py" />
+    <Compile Include="20\main.py" />
+    <Content Include="22\names.txt" />
+    <Compile Include="22\main.py" />
+    <Compile Include="24\main.py" />
+    <Compile Include="25\main.py" />
+    <Compile Include="29\main.py" />
+    <Compile Include="3\main.py" />
+    <Compile Include="4\main.py" />
+    <Compile Include="48\main.py" />
+    <Compile Include="5\main.py" />
+    <Compile Include="6\main.py" />
+    <Content Include="67\triangle.txt" />
+    <Compile Include="67\main.py" />
+    <Compile Include="7\main.py" />
+    <Content Include="8\input.txt" />
+    <Compile Include="8\main.py" />
+    <Compile Include="9\main.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="1" />
+    <Folder Include="10" />
+    <Folder Include="11" />
+    <Folder Include="12" />
+    <Folder Include="13" />
+    <Folder Include="14" />
+    <Folder Include="16" />
+    <Folder Include="17" />
+    <Folder Include="18" />
+    <Folder Include="19" />
+    <Folder Include="2" />
+    <Folder Include="20" />
+    <Folder Include="22" />
+    <Folder Include="24" />
+    <Folder Include="25" />
+    <Folder Include="29" />
+    <Folder Include="3" />
+    <Folder Include="4" />
+    <Folder Include="48" />
+    <Folder Include="5" />
+    <Folder Include="6" />
+    <Folder Include="67" />
+    <Folder Include="7" />
+    <Folder Include="8" />
+    <Folder Include="9" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.2" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
