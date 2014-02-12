@@ -1,2 +1,2 @@
 all:
-	python *.py
+	@python *.py

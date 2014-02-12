@@ -1,8 +1,13 @@
+import sys
+import os
+import time
+import math
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
 # 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 # What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
-
-import math
-import sys
+###############################################################################
 
 def smallest_evenly_divisible(min, max):
 	n = 20
@@ -24,7 +29,6 @@ def smallest_evenly_divisible(min, max):
 	return None
 
 # Main:
-import time
 start = time.clock()
 min = 1
 max = 20

@@ -1,7 +1,13 @@
-# What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20x20 grid?
-
-import time
 import sys
+import os
+import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
+# What is the greatest product of four adjacent numbers in the same direction 
+# (up, down, left, right, or diagonally) in the 20x20 grid?
+###############################################################################
+
 
 def read_input(path):
 	f = open(path)

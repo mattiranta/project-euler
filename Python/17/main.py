@@ -1,3 +1,9 @@
+import sys
+import os
+import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
 # If the numbers 1 to 5 are written out in words: one, two, three, four, five, 
 # then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.
 
@@ -7,8 +13,7 @@
 # NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-two) contains 23 letters 
 # and 115 (one hundred and fifteen) contains 20 letters. 
 # The use of "and" when writing out numbers is in compliance with British usage.
-
-import sys
+###############################################################################
 
 def get_as_text(i, n):
 	ret = ''
@@ -63,7 +68,6 @@ def letter_count():
 	return sum(len(get_as_text(i, n).replace(' ', '').replace('-', '')) for i in range(1, 1001))
 	
 # Main:
-import time
 start = time.clock()
 print("Letters used: {}".format(letter_count()))
 print ("Time: {}".format(time.clock() - start))

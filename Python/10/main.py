@@ -1,8 +1,13 @@
+import sys
+import math
+import os
+import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
 # The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 # Find the sum of all the primes below two million.
-
-import math
-import sys
+###############################################################################
 
 def sieve_of_erastothenes(max):
 	sqrt_max = math.ceil(math.sqrt(max))
@@ -29,7 +34,6 @@ def sum_of_primes_below(n, primes):
 	return -1
 
 # Main:
-import time
 start = time.clock()
 
 # A good guess of how far we have to go, to include nth prime

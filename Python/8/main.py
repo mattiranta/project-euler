@@ -1,7 +1,12 @@
-# Find the greatest product of five consecutive digits in the 1000-digit number.
-
-import math
 import sys
+import os
+import time
+import math
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
+# Find the greatest product of five consecutive digits in the 1000-digit number.
+###############################################################################
 
 def read_digits(path):
 	f = open(path, "r")
@@ -20,7 +25,6 @@ def find_greatest_product(numbers):
 
 
 # Main:
-import time
 start = time.clock()
 
 input_file = "input.txt"

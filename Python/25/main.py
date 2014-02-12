@@ -1,7 +1,12 @@
-# What is the first term in the Fibonacci sequence to contain 1000 digits?
-
-import math
 import sys
+import os
+import time
+import math
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
+# What is the first term in the Fibonacci sequence to contain 1000 digits?
+###############################################################################
 
 def fib_gen():
 	yield 1
@@ -21,7 +26,6 @@ def first_fib_term_with_over_n_digits(n):
 			return i
 
 # Main:
-import time
 start = time.clock()
 
 n = 1000

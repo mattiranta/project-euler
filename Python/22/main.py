@@ -1,3 +1,9 @@
+import sys
+import os
+import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
 # Using names.txt (right click and 'Save Link/Target As...'), a 46K text file containing over five-thousand first names, 
 #begin by sorting it into alphabetical order. 
 #Then working out the alphabetical value for each name, 
@@ -8,8 +14,8 @@
 #So, COLIN would obtain a score of 938 x 53 = 49714.
 
 #What is the total of all the name scores in the file?
+###############################################################################
 
-import sys
 
 def read_input(path):
 	return [name.replace('"', '') for name in open(path).read().split(',')]
@@ -21,7 +27,6 @@ def calc_name_scores(names):
 	return [sum_ascii_chars(name) * (pos + 1) for pos, name in enumerate(sorted(names))]
 
 # Main:
-import time
 start = time.clock()
 total = sum(calc_name_scores(read_input("names.txt")))
 print("Total of all name scores: {}".format(total))

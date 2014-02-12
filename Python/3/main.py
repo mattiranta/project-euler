@@ -1,7 +1,12 @@
+import sys
+import os
+import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
 #The prime factors of 13195 are 5, 7, 13 and 29.
 #What is the largest prime factor of the number 600851475143 ?
-
-import math
+###############################################################################
 
 def is_prime(n):
 	if(n == 2):
@@ -27,7 +32,6 @@ def largest_prime_factor(n):
 	return factor
 
 # Main:
-import time
 start = time.clock()
 factor = largest_prime_factor(600851475143)
 print ("Largest prime factor: {}".format(factor))

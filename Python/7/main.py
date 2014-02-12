@@ -1,9 +1,15 @@
+import sys
+import os
+import time
+import math
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
 # By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13,
 # we can see that the 6th prime is 13.
 # What is the 10001 prime number?
+###############################################################################
 
-import math
-import sys
 
 def sieve_of_erastothenes(max):
 	ps = []
@@ -18,7 +24,6 @@ def sieve_of_erastothenes(max):
 	return ps
 
 # Main:
-import time
 start = time.clock()
 
 # A good guess of how far we have to go, to include nth prime

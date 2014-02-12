@@ -1,3 +1,10 @@
+import sys
+import os
+import time
+import math
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
 # A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
 
 # a2 + b2 = c2
@@ -5,9 +12,7 @@
 
 # There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 # Find the product abc.
-
-import math
-import sys
+###############################################################################
 
 def find_pythagorean_triplet(n):
 	print(n)
@@ -30,7 +35,6 @@ def find_pythagorean_triplet(n):
 
 
 # Main:
-import time
 start = time.clock()
 n = 1000
 (a, b, c) = (0,0,0)

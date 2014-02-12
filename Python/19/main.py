@@ -1,3 +1,10 @@
+import sys
+import os
+import time
+import datetime
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
 # You are given the following information, but you may prefer to do some research for yourself.
 
 # - 1 Jan 1900 was a Monday.
@@ -12,9 +19,7 @@
 # - A leap year occurs on any year evenly divisible by 4, but not on a century unless it is divisible by 400.
 
 #   How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
-
-import sys
-import datetime
+###############################################################################
 
 def is_leap_year(year):
 	if year % 100 == 0 and year % 400 != 0:
@@ -63,7 +68,6 @@ def sundays_as_first_of_month_ver2():
 
 
 # Main:
-import time
 start = time.clock()
 print("Sundays as first of month: {}".format(sundays_as_first_of_month_ver1()))
 print("Sundays as first of month: {}".format(sundays_as_first_of_month_ver2()))

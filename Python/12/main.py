@@ -1,7 +1,13 @@
-# What is the value of the first triangle number to have over five hundred divisors?
-
-import math
 import sys
+import os
+import time
+import math
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
+# What is the value of the first triangle number to have over five hundred divisors?
+###############################################################################
+
 
 def triangulars():
 	sum, i = 1, 1
@@ -48,7 +54,6 @@ def find_triangular_number_with_divisors(div_limit):
 
 
 # Main:
-import time
 start = time.clock()
 
 limit = 500

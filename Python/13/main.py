@@ -1,7 +1,12 @@
-# Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
-
-import time
 import sys
+import os
+import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
+# Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
+###############################################################################
+
 
 def read_input(path):
 	f = open(path)

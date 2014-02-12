@@ -1,7 +1,12 @@
-# Find the sum of the digits in the number 100!
-
-import math
 import sys
+import os
+import time
+import math
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
+# Find the sum of the digits in the number 100!
+###############################################################################
 
 def sum_of_digits(n):
 	return sum(int(c) for c in list(str(n)) )

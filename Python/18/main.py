@@ -1,6 +1,11 @@
-# Find the maximum total from top to bottom of the triangle below:
-
 import sys
+import os
+import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
+# Find the maximum total from top to bottom of the triangle below:
+###############################################################################
 
 input = \
 """
@@ -24,7 +29,7 @@ def read_input(input):
     rows = []
     for line in input.split('\n'):
         if line:
-	        rows.append([int(number) for number in line.split(" ") if number.strip()])
+            rows.append([int(number) for number in line.split(" ") if number.strip()])
 
     return rows
 
@@ -37,7 +42,6 @@ def max_sum(rows):
 
 
 # Main:
-import time
 start = time.clock()
 
 base = 2

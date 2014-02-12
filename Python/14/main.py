@@ -1,7 +1,12 @@
-# Find the maximum total from top to bottom of the triangle below:
-
-import time
 import sys
+import os
+import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
+# Find the maximum total from top to bottom of the triangle below:
+###############################################################################
+
 
 def longest_collatz_seq(lower_limit, upper_limit):
 	longest_seq = (0, 0)

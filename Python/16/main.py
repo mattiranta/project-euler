@@ -1,7 +1,11 @@
-# Find the greatest product of five consecutive digits in the 1000-digit number.
-
-import math
 import sys
+import os
+import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+
+###############################################################################
+# Find the greatest product of five consecutive digits in the 1000-digit number.
+###############################################################################
 
 def power_digit_sum(base, exp):
 	digits = str(base ** exp)
@@ -9,7 +13,6 @@ def power_digit_sum(base, exp):
 
 
 # Main:
-import time
 start = time.clock()
 
 base = 2
