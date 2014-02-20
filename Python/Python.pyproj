@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{1ea3a5fc-30a4-45d0-915e-488e8258512a}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>21\main.py</StartupFile>
+    <StartupFile>28\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,8 @@
     <Compile Include="18\main.py" />
     <Compile Include="19\main.py" />
     <Compile Include="21\main.py" />
+    <Compile Include="23\main.py" />
+    <Compile Include="28\main.py" />
     <Compile Include="2\main.py" />
     <Compile Include="20\main.py" />
     <Content Include="21\Makefile" />
@@ -46,6 +48,8 @@
     <Compile Include="48\main.py" />
     <Compile Include="5\main.py" />
     <Compile Include="6\main.py" />
+    <Content Include="23\Makefile" />
+    <Content Include="28\Makefile" />
     <Content Include="36\Makefile" />
     <Content Include="67\triangle.txt" />
     <Compile Include="67\main.py" />
@@ -69,8 +73,10 @@
     <Folder Include="20" />
     <Folder Include="21\" />
     <Folder Include="22" />
+    <Folder Include="23\" />
     <Folder Include="24" />
     <Folder Include="25" />
+    <Folder Include="28\" />
     <Folder Include="29" />
     <Folder Include="3" />
     <Folder Include="36\" />

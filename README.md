@@ -36,7 +36,7 @@ Status
 25. [ ] -  First term in the Fibonacci sequence to contain 1000 digits: 4782
 26. [ ] -
 27. [ ] -
-28. [ ] -
+28. [ ] -  Sum of the numbers on the diagonals: 669171001
 29. [ ] -  Distinct powers: 9183
 30. [ ] -
 31. [ ] -
