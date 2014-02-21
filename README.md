@@ -31,7 +31,7 @@ Status
 20. [ ] -  Sum of the digits in the number 100!: 648
 21. [ ] -  Sum of all the amicable numbers under 10000: 31626
 22. [ ] -  Total of all name scores: 871198282
-23. [ ] -
+23. [ ] -  Sum of all the positive integers which cannot be written as the sum of two abundant numbers: 4179871
 24. [ ] -  Millionth lexicographic permutation: 2783915460
 25. [ ] -  First term in the Fibonacci sequence to contain 1000 digits: 4782
 26. [ ] -

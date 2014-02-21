@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{1ea3a5fc-30a4-45d0-915e-488e8258512a}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>28\main.py</StartupFile>
+    <StartupFile>23\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
