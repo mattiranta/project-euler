@@ -23,7 +23,7 @@ Status
 12. [ ] -  Value of the first triangle number with over 500 divisors: 76576500 (576 divisors)
 13. [ ] -  First ten digits of the sum: 5537376230
 14. [ ] -  Longest chain has 524 elems and starts from 837799
-15. [ ]
+15. [ ] -  Number of routes: 137846528820
 16. [ ] -  Sum of the digits of the number 2^1000: 1366
 17. [ ] -  Letters used: 21124
 18. [ ] -  Max sum: 1074
