@@ -35,14 +35,14 @@ Status
 24. [ ] -  Millionth lexicographic permutation: 2783915460
 25. [ ] -  First term in the Fibonacci sequence to contain 1000 digits: 4782
 26. [ ] -
-27. [ ] -
+27. [ ] -  Product of the coefficients a and b: -59231
 28. [ ] -  Sum of the numbers on the diagonals: 669171001
 29. [ ] -  Distinct powers: 9183
-30. [ ] -
+30. [ ] -  Sum of numbers that can be written as the sum of fifth powers of their digits: 443839
 31. [ ] -
 32. [ ] -
 33. [ ] -
-34. [ ] -
+34. [ ] -  Sum of all numbers which are equal to the sum of the factorial of their digits: 40730
 35. [ ] -
 36. [ ] -  Sum of palindromic numbers below 1000000: 872187
 37. [ ] -
