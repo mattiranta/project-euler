@@ -34,7 +34,7 @@ Status
 23. [ ] -  Sum of all the positive integers which cannot be written as the sum of two abundant numbers: 4179871
 24. [ ] -  Millionth lexicographic permutation: 2783915460
 25. [ ] -  First term in the Fibonacci sequence to contain 1000 digits: 4782
-26. [ ] -
+26. [ ] -  Value of d for longest recurring cycle: 983 (length: 982)
 27. [ ] -  Product of the coefficients a and b: -59231
 28. [ ] -  Sum of the numbers on the diagonals: 669171001
 29. [ ] -  Distinct powers: 9183
