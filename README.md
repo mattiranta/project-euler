@@ -4,7 +4,7 @@ Project Euler
 Languages:
 --------------------
 
-Python, F#
+Python, F# (problem is ticked below if solved also in F#)
 
 Status
 --------------------
