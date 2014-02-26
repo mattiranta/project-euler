@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{1ea3a5fc-30a4-45d0-915e-488e8258512a}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>20_29\26\main.py</StartupFile>
+    <StartupFile>40_49\44\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -90,6 +90,7 @@
     <Content Include="40_49\41\Makefile" />
     <Content Include="40_49\41\template\Makefile" />
     <Content Include="40_49\42\Makefile" />
+    <Content Include="40_49\42\words.txt" />
     <Content Include="40_49\43\Makefile" />
     <Content Include="40_49\44\Makefile" />
     <Content Include="40_49\45\Makefile" />
@@ -103,7 +104,6 @@
     <Content Include="1_9\8\input.txt" />
     <Compile Include="1_9\8\main.py" />
     <Compile Include="1_9\9\main.py" />
-    <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="10_19\10\" />

@@ -41,7 +41,7 @@ Status
 30. [ ] -  Sum of numbers that can be written as the sum of fifth powers of their digits: 443839
 31. [ ] -
 32. [ ] -
-33. [ ] -
+33. [ ] -  Value of denominator: 100
 34. [ ] -  Sum of all numbers which are equal to the sum of the factorial of their digits: 40730
 35. [ ] -
 36. [ ] -  Sum of palindromic numbers below 1000000: 872187
@@ -50,10 +50,10 @@ Status
 39. [ ] -
 40. [ ] -
 41. [ ] -
-42. [ ] -
+42. [ ] -  Count of triangle words: 162
 43. [ ] -
-44. [ ] -
-45. [ ] -
+44. [ ] -  Difference of pentagonal pair: 5482660
+45. [ ] -  Next triangle number that is also pentagonal and hexagonal: 1533776805
 46. [ ] -
 47. [ ] -
 48. [ ] -  Last ten digits of the series 1^1 + 2^2 + ... 1000^1000: 9110846700
