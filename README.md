@@ -39,17 +39,17 @@ Status
 28. [ ] -  Sum of the numbers on the diagonals: 669171001
 29. [ ] -  Distinct powers: 9183
 30. [ ] -  Sum of numbers that can be written as the sum of fifth powers of their digits: 443839
-31. [ ] -
+31. [ ] -  Number of different ways to produce 2 pounds: 73682
 32. [ ] -
 33. [ ] -  Value of denominator: 100
 34. [ ] -  Sum of all numbers which are equal to the sum of the factorial of their digits: 40730
-35. [ ] -
+35. [ ] -  Number of circular primes below 1000000: 55
 36. [ ] -  Sum of palindromic numbers below 1000000: 872187
-37. [ ] -
-38. [ ] -
-39. [ ] -
-40. [ ] -
-41. [ ] -
+37. [ ] -  Sum of eleven truncatable primes: 748317
+38. [ ] -  Largest pandigital concatenated product: 932718654
+39. [ ] -  Number of solutions is maximized for p: 840 (8 solutions)
+40. [ ] -  Value for of expression: 210
+41. [ ] -  Largest n-digit pandigital prime: 7652413
 42. [ ] -  Count of triangle words: 162
 43. [ ] -
 44. [ ] -  Difference of pentagonal pair: 5482660
@@ -58,7 +58,7 @@ Status
 47. [ ] -
 48. [ ] -  Last ten digits of the series 1^1 + 2^2 + ... 1000^1000: 9110846700
 49. [ ] -
-50. [ ] -
+50. [ ] -  Most consecutive prime sum: 997651
 51. [ ] -
 52. [ ] -
 53. [ ] -

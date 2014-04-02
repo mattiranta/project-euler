@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{1ea3a5fc-30a4-45d0-915e-488e8258512a}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>40_49\44\main.py</StartupFile>
+    <StartupFile>50_59\50\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -59,7 +59,6 @@
     <Compile Include="1_9\3\main.py" />
     <Compile Include="40_49\40\main.py" />
     <Compile Include="40_49\41\main.py" />
-    <Compile Include="40_49\41\template\main.py" />
     <Compile Include="40_49\42\main.py" />
     <Compile Include="40_49\43\main.py" />
     <Compile Include="40_49\44\main.py" />
@@ -88,7 +87,6 @@
     <Content Include="30_39\39\Makefile" />
     <Content Include="40_49\40\Makefile" />
     <Content Include="40_49\41\Makefile" />
-    <Content Include="40_49\41\template\Makefile" />
     <Content Include="40_49\42\Makefile" />
     <Content Include="40_49\42\words.txt" />
     <Content Include="40_49\43\Makefile" />
@@ -147,7 +145,6 @@
     <Folder Include="30_39\39\" />
     <Folder Include="40_49\40\" />
     <Folder Include="40_49\41\" />
-    <Folder Include="40_49\41\template\" />
     <Folder Include="40_49\42\" />
     <Folder Include="40_49\43\" />
     <Folder Include="40_49\44\" />
