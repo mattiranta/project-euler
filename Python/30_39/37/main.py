@@ -1,6 +1,7 @@
 import sys
 import os
 import time
+from euler_lib import sieve_of_erastothenes
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ###############################################################################
@@ -12,18 +13,6 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # Find the sum of the only eleven primes that are both truncatable from left to right and right to left.
 # NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
 ###############################################################################
-
-def sieve_of_erastothenes(max):
-	ps = []
-	sieve = [True] * (max + 1)
-
-	for p in range(2, max + 1):
-		if sieve[p]:
-			ps.append(p)
-			for i in range(p * p, max + 1, p):
-				sieve[i] = False
-
-	return ps
 
 def is_truncatable_prime(i, p): 
         str_i = str(i)

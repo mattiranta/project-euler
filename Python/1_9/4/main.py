@@ -2,6 +2,7 @@ import sys
 import os
 import time
 import math
+from euler_lib import is_palindrome
 os.chdir(os.path.dirname(os.path.abspath(__file__))) 
 
 ###############################################################################
@@ -9,10 +10,6 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 * 99.
 # Find the largest palindrome made from the product of two 3-digit numbers.
 ###############################################################################
-
-
-def is_palindrome(n):
-	return str(n) == str(n)[::-1]
 
 def factorize(n):
 	for i in range(999, 99, -1):

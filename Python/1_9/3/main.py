@@ -1,25 +1,14 @@
 import sys
 import os
 import time
+import math
+from euler_lib import is_prime
 os.chdir(os.path.dirname(os.path.abspath(__file__))) 
 
 ###############################################################################
 #The prime factors of 13195 are 5, 7, 13 and 29.
 #What is the largest prime factor of the number 600851475143 ?
 ###############################################################################
-
-def is_prime(n):
-	if(n == 2):
-		return True
-	if(n % 2 == 0):
-		return False
-
-	sqrtn = round(math.sqrt(n))
-	for i in range(3, sqrtn):
-		if( n % i == 0):
-			return False
-
-	return True
 
 def largest_prime_factor(n):
 	sqrt_n = round(math.sqrt(n))
@@ -30,6 +19,7 @@ def largest_prime_factor(n):
 			factor = i
 
 	return factor
+
 
 # Main:
 start = time.clock()

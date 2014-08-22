@@ -2,28 +2,15 @@ import sys
 import os
 import time
 import itertools
+from euler_lib import sieve_of_erastothenes
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ###############################################################################
-# The number, 197, is called a circular prime because all rotations of the digits: 197, 971, and 719, are themselves prime.
+# The number, 197, is called a circular prime because all rotations of the digits:
+# 197, 971, and 719, are themselves prime.
 # There are thirteen such primes below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, and 97.
 # How many circular primes are there below one million?
 ###############################################################################
-
-start = time.clock()
-
-def sieve_of_erastothenes(max):
-	ps = []
-	sieve = [True] * (max + 1)
-
-	for p in range(2, max + 1):
-		if sieve[p]:
-			ps.append(p)
-			for i in range(p * p, max + 1, p):
-				sieve[i] = False
-
-	return ps
-
 
 def permute_cyclically(string):
     l= []

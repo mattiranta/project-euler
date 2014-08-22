@@ -1,9 +1,0 @@
-C:\ProjectEuler\F_Sharp\F_Sharp\bin\Debug\F_Sharp.exe.config
-C:\ProjectEuler\F_Sharp\F_Sharp\bin\Debug\F_Sharp.XML
-C:\ProjectEuler\F_Sharp\F_Sharp\bin\Debug\F_Sharp.exe
-C:\ProjectEuler\F_Sharp\F_Sharp\bin\Debug\F_Sharp.pdb
-C:\ProjectEuler\F_Sharp\F_Sharp\bin\Debug\FSharp.Core.dll
-C:\ProjectEuler\F_Sharp\F_Sharp\bin\Debug\FSharp.Core.xml
-C:\ProjectEuler\F_Sharp\F_Sharp\obj\Debug\F_Sharp.exe
-C:\ProjectEuler\F_Sharp\F_Sharp\obj\Debug\F_Sharp.pdb
-C:\ProjectEuler\F_Sharp\F_Sharp\obj\Debug\F_Sharp.fsprojResolveAssemblyReference.cache

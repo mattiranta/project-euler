@@ -6,7 +6,7 @@ Languages:
 
 Python, F# (problem is ticked below if solved also in F#)
 
-Status
+Status:
 --------------------
 
 1.  [x] -  Sum of all the multiples of 3 or 5 below 1000: 233168
@@ -54,10 +54,10 @@ Status
 43. [ ] -  Sum of all divisible 0 to 9 pandigitals: 16695334890
 44. [ ] -  Difference of pentagonal pair: 5482660
 45. [ ] -  Next triangle number that is also pentagonal and hexagonal: 1533776805
-46. [ ] -
-47. [ ] -
+46. [ ] -  Smallest odd composite that cannot be written as the sum of a prime and twice a square: 5777
+47. [ ] -  First number of the first four consecutive integers to have four distinct prime factors: 134043
 48. [ ] -  Last ten digits of the series 1^1 + 2^2 + ... 1000^1000: 9110846700
-49. [ ] -
+49. [ ] -  Concatenated prime permutations: 296962999629
 50. [ ] -  Most consecutive prime sum: 997651
 51. [ ] -
 52. [ ] -

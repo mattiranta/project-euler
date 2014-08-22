@@ -5,9 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{1ea3a5fc-30a4-45d0-915e-488e8258512a}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>30_39\32\main.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <StartupFile>1_9\3\main.py</StartupFile>
+    <SearchPath>..\Python</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
@@ -22,6 +21,7 @@
     <Compile Include="10_19\15\main.py" />
     <Compile Include="1_9\1\main.py" />
     <Compile Include="10_19\10\main.py" />
+    <Compile Include="euler_lib.py" />
     <Content Include="10_19\11\input.txt" />
     <Compile Include="10_19\11\main.py" />
     <Compile Include="10_19\12\main.py" />

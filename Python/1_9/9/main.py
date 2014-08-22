@@ -15,7 +15,6 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 ###############################################################################
 
 def find_pythagorean_triplet(n):
-	print(n)
 	a = 0
 	b = 0
 	while True:
@@ -37,14 +36,13 @@ def find_pythagorean_triplet(n):
 # Main:
 start = time.clock()
 n = 1000
-(a, b, c) = (0,0,0)
 ret = find_pythagorean_triplet(n)
-print(ret)
 if ret != None:
-	(a, b, c) = ret
+    (a, b, c) = ret
+    print ("a * b * c = {} * {} * {} = {}".format(a, b, c, a * b * c))
+else:
+    print("Cannot find pythagorean triplet for a + b + c = {}".format(n))
 
-print ("{} + {} + {} = {}".format(a, b, c, a + b + c))
-print ("a * b * c = {}".format(a * b * c))
 print ("Time: {}".format(time.clock() - start))
 
 

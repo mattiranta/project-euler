@@ -11,17 +11,22 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # find the sum of the even-valued terms.
 ###############################################################################
 
+def sum_of_even_fibonacci_terms(max):
+    i1 = 1
+    i2 = 2
+    sum = 2
+
+    while i2 + i1 < max:
+        i1, i2 = i2, i1 + i2
+
+        if i2 % 2 == 0:
+            sum += i2
+
+    return sum
+
+
+# Main:
+import time
 start = time.clock()
-i1 = 1
-i2 = 2
-sum = 2
-
-while i2 + i1 < 4000000:
-	i1, i2 = i2, i1 + i2
-
-	if i2 % 2 == 0:
-		sum += i2
-
-elapsed = time.clock() - start
-print ("Sum: {}".format(sum))
-print ("Time: {}".format(elapsed))
+print ("Sum: {}".format(sum_of_even_fibonacci_terms(4000000)))
+print ("Time: {}".format(time.clock() - start))

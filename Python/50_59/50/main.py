@@ -1,6 +1,7 @@
 import sys
 import os
 import time
+from euler_lib import sieve_of_erastothenes
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ###############################################################################
@@ -14,18 +15,6 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Which prime, below one-million, can be written as the sum of the most consecutive primes?
 ###############################################################################
-
-def sieve_of_erastothenes(max):
-	ps = []
-	sieve = [True] * (max + 1)
-
-	for p in range(2, max + 1):
-		if sieve[p]:
-			ps.append(p)
-			for i in range(p * p, max + 1, p):
-				sieve[i] = False
-
-	return ps
 
 # Below 100: 2 + 3 + 5 + 7 + 11 + 13 = 41
 # Below 1000: 953 (21 terms)
