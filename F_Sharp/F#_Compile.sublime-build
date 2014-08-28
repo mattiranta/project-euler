@@ -1,0 +1,4 @@
+{
+	"shell": "true",
+	"shell_cmd": "echo Building $file_name & fsc --nologo --out:a.exe lib.fs $file_name Program.fs & a.exe"
+}

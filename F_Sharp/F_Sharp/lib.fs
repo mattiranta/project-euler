@@ -1,4 +1,5 @@
-﻿module lib
+﻿[<AutoOpen>]
+module lib
 
 let isPrime n =
     match n with

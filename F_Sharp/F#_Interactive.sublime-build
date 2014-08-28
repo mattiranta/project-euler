@@ -1,0 +1,3 @@
+{
+	"shell_cmd": "echo Running $file_name & fsi --nologo --load:lib.fs --load:$file_name Program.fsx $file_name"
+}
