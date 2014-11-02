@@ -1,5 +1,6 @@
 import math
 import itertools
+from fractions import gcd
 
 
 ##### NUMERIC PALINDROMES, ETC. ####
@@ -107,3 +108,5 @@ def sieve_of_erastothenes(max):
 
 	return ps
 
+def lcm(a, b):
+    return (a * b) // gcd(a, b)

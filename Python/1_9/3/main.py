@@ -2,8 +2,9 @@ import sys
 import os
 import time
 import math
-from euler_lib import is_prime
 os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+sys.path.append('../../')
+from euler_lib import is_prime
 
 ###############################################################################
 #The prime factors of 13195 are 5, 7, 13 and 29.

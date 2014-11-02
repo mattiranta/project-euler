@@ -11,8 +11,8 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 def read_digits(path):
 	f = open(path, "r")
 	digits = f.read()
-	digits = digits.translate(None," \r\n")
-	return map(int, digits)
+	digits = digits.replace("\n", "")
+	return list(map(int, list(digits)))
 
 
 def find_greatest_product(numbers):

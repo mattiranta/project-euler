@@ -1,8 +1,9 @@
 import sys
 import os
 import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+sys.path.append('../../')
 from euler_lib import sieve_of_erastothenes
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ###############################################################################
 # The prime 41, can be written as the sum of six consecutive primes:

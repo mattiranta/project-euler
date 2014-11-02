@@ -2,8 +2,9 @@ import sys
 import os
 import time
 import math
-from euler_lib import find_nth_prime
 os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+sys.path.append('../../')
+from euler_lib import find_nth_prime
 
 ###############################################################################
 # By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13,

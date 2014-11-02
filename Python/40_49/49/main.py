@@ -2,9 +2,10 @@ import sys
 import os
 import time
 import itertools
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+sys.path.append('../../')
 from euler_lib import sieve_of_erastothenes
 from euler_lib import permutations
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ###############################################################################
 # The arithmetic sequence, 1487, 4817, 8147, in which each of the terms increases by 3330,

@@ -4,7 +4,7 @@
 		{
 			"follow_symlinks": true,
 			"path": ".",
-			"folder_exclude_patterns": ["F_Sharp/Backup", "F_Sharp/F_Sharp/bin", "F_Sharp/F_Sharp/obj"],
+			"folder_exclude_patterns": ["F_Sharp/Backup", "F_Sharp/F_Sharp/bin", "F_Sharp/F_Sharp/obj", "__pycache__", "obj"],
 			"file_exclude_patterns": ["*.sublime-*", ".gitignore", "*.sln", "*.htm*", "App.config", "*.fsproj"]
 		}
 	]

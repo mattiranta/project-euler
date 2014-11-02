@@ -2,8 +2,9 @@ import sys
 import math
 import os
 import time
-from euler_lib import sieve_of_erastothenes
 os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+sys.path.append('../../')
+from euler_lib import sieve_of_erastothenes
 
 ###############################################################################
 # The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.

@@ -2,8 +2,9 @@ import sys
 import os
 import time
 import itertools
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+sys.path.append('../../')
 from euler_lib import sieve_of_erastothenes
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ###############################################################################
 # The number, 197, is called a circular prime because all rotations of the digits:

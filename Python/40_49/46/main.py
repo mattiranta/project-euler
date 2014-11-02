@@ -2,8 +2,9 @@ import sys
 import os
 import time
 import math
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+sys.path.append('../../')
 from euler_lib import sieve_of_erastothenes
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ###############################################################################
 # It was proposed by Christian Goldbach that every odd composite number can

@@ -1,8 +1,9 @@
 import sys
 import os
 import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+sys.path.append('../../')
 from euler_lib import factor
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ###############################################################################
 # The first two consecutive numbers to have two distinct prime factors are:

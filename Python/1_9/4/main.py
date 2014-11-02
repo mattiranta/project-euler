@@ -2,8 +2,9 @@ import sys
 import os
 import time
 import math
-from euler_lib import is_palindrome
 os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+sys.path.append('../../')
+from euler_lib import is_palindrome
 
 ###############################################################################
 # A palindromic number reads the same both ways.

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{1ea3a5fc-30a4-45d0-915e-488e8258512a}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>1_9\3\main.py</StartupFile>
-    <SearchPath>..\Python</SearchPath>
+    <StartupFile>1_9\8\main.py</StartupFile>
+    <SearchPath>.</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
@@ -21,7 +21,7 @@
     <Compile Include="10_19\15\main.py" />
     <Compile Include="1_9\1\main.py" />
     <Compile Include="10_19\10\main.py" />
-    <Compile Include="euler_lib.py" />
+    <None Include="euler_lib.py" />
     <Content Include="10_19\11\input.txt" />
     <Compile Include="10_19\11\main.py" />
     <Compile Include="10_19\12\main.py" />
@@ -56,7 +56,7 @@
     <Compile Include="30_39\37\main.py" />
     <Compile Include="30_39\38\main.py" />
     <Compile Include="30_39\39\main.py" />
-    <Compile Include="1_9\3\main.py" />
+    <None Include="1_9\3\main.py" />
     <Compile Include="40_49\40\main.py" />
     <Compile Include="40_49\41\main.py" />
     <Compile Include="40_49\42\main.py" />

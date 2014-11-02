@@ -1,8 +1,9 @@
 import sys
 import os
 import time
+os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+sys.path.append('../../')
 from euler_lib import sieve_of_erastothenes
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ###############################################################################
 # The number 3797 has an interesting property. Being prime itself,

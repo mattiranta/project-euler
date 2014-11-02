@@ -44,7 +44,6 @@ def find_triangular_number_with_divisors(div_limit):
 		if num % 2 != 0: continue
 
 		divisors = count_divisors(num)
-		#print('Num: {}, Divisors: {}'.format(num, divisors))
 		if divisors > div_limit:
 			return (num, divisors)
 			break
