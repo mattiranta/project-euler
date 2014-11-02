@@ -1,4 +1,5 @@
-﻿module _6
+﻿[<AutoOpen>]
+module _6
 
 // The sum of the squares of the first ten natural numbers is,
 //
@@ -13,4 +14,6 @@
 // natural numbers and the square of the sum. 
 
 let Run() =
-    sprintf "- not implemented -"
+    let sumOfSquares = seq {for i in 1. .. 100. do yield i ** 2.} |> Seq.sum
+    let squareOfSum = (seq {1. .. 100.} |> Seq.sum ) ** 2.
+    sprintf "Difference: %d" ((int squareOfSum) - (int sumOfSquares))

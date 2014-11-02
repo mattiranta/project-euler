@@ -1,4 +1,5 @@
-﻿module _14
+﻿[<AutoOpen>]
+module _14
 
 /// 
 
