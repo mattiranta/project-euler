@@ -1,4 +1,5 @@
 {
 	"shell": "true",
-	"shell_cmd": "rm -f a.exe & echo Building $file_name & fsc --nologo --out:a.exe lib.fs $file_name Program.fs && echo Compiled && a.exe & true"
+	"shell_cmd": "rm -f a.exe & echo Building $file_name & fsc --nologo --out:a.exe lib.fs $file_name Program.fs && echo Compiled && a.exe & true",
+    "selector": "source.fsharp"
 }

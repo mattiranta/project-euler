@@ -1,4 +1,5 @@
 {
 	"shell": "true",
-	"shell_cmd": "echo Running $file_name & fsi --nologo --load:lib.fs --load:$file_name Program.fsx $file_name & true"
+	"shell_cmd": "echo Running $file_name & fsi --nologo --load:lib.fs --load:$file_name Program.fsx $file_name & true",
+    "selector": "source.fsharp"
 }
