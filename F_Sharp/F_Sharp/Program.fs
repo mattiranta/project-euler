@@ -10,7 +10,7 @@ let main argv =
     printfn "%s" res
     System.Diagnostics.Debug.WriteLine res
     sw.Stop()
-    printfn "Time: %.02f s" sw.Elapsed.TotalSeconds
+    printfn "Time: %.015f" sw.Elapsed.TotalSeconds
     
     match argv with
         | [|"--wait"|] -> printf "Press any key to quit"; Console.ReadKey(true) |> ignore

@@ -54,26 +54,26 @@
   <ItemGroup>
     <None Include="App.config" />
     <Compile Include="lib.fs" />
-    <None Include="1.fs" />
-    <None Include="2.fs" />
-    <None Include="3.fs" />
-    <None Include="4.fs" />
-    <None Include="5.fs" />
-    <None Include="6.fs" />
-    <None Include="7.fs" />
-    <None Include="8.fs" />
-    <None Include="9.fs" />
-    <None Include="10.fs" />
-    <None Include="11.fs" />
-    <Compile Include="12.fs" />
-    <None Include="13.fs" />
-    <None Include="14.fs" />
-    <None Include="15.fs" />
-    <None Include="16.fs" />
-    <None Include="17.fs" />
-    <None Include="18.fs" />
-    <None Include="19.fs" />
-    <None Include="20.fs" />
+    <None Include="001.fs" />
+    <None Include="002.fs" />
+    <None Include="003.fs" />
+    <None Include="004.fs" />
+    <None Include="005.fs" />
+    <None Include="006.fs" />
+    <None Include="007.fs" />
+    <None Include="008.fs" />
+    <None Include="009.fs" />
+    <None Include="010.fs" />
+    <None Include="011.fs" />
+    <Compile Include="012.fs" />
+    <None Include="013.fs" />
+    <None Include="014.fs" />
+    <None Include="015.fs" />
+    <None Include="016.fs" />
+    <None Include="017.fs" />
+    <None Include="018.fs" />
+    <None Include="019.fs" />
+    <None Include="020.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <PropertyGroup>

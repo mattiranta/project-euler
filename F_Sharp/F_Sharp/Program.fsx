@@ -7,4 +7,4 @@ sw.Start()
 let res = Run()
 printfn "%s" res
 sw.Stop()
-printfn "Time: %.02f s" sw.Elapsed.TotalSeconds
+printfn "Time: %.015f" sw.Elapsed.TotalSeconds
