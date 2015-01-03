@@ -84,3 +84,10 @@ Status:
 68. [---] -
 69. [---] -
 70. [---] -
+
+
+
+
+Performance comparison:
+--------------------
+![Alt text](performance/plot.png)
