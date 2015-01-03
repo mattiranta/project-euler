@@ -90,5 +90,4 @@ Status:
 
 Performance comparison:
 --------------------
-![Alt text](https://bitbucket.org/Mattiranta/projecteuler/src/174db9802283742d9efb1e49f97717234dea2317/performance/plot.png)
-![Alt text](http://www.addictedtoibiza.com/wp-content/uploads/2012/12/example.png)
+![Alt text](performance/plot.png)
