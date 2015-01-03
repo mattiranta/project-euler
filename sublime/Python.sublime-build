@@ -1,3 +1,0 @@
-{
-	"shell_cmd": "python $file_name & true"
-}
