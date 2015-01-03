@@ -90,4 +90,4 @@ Status:
 
 Performance comparison:
 --------------------
-![Alt text](performance/plot.png)
+![comparison](https://bitbucket.org/Mattiranta/projecteuler/src/174db9802283742d9efb1e49f97717234dea2317/performance/plot.png?at=master)
