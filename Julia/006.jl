@@ -15,8 +15,9 @@ include("EulerLib.jl")
 ###############################################################################
 
 function main()
-
-    println("")
+    d = -1
+    d = reduce(+, [1:100])^2 - reduce(+, [1:100].^2)
+    println("Difference: $d")
 end
 
 @time main()

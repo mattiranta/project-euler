@@ -6,8 +6,10 @@ include("EulerLib.jl")
 ###############################################################################
 
 function main()
-
-    println("")
+    n = -1
+    divisors = 20:-1:1
+    n = reduce(lcm, divisors)
+    println("Smallest positive number evenly divisible by all $(divisors[1])..$(divisors[end]): $n")
 end
 
 @time main()

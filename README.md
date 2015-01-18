@@ -16,12 +16,12 @@ Status:
 
 1.  [PFJ] -  Sum of all the multiples of 3 or 5 below 1000: 233168
 2.  [PFJ] -  Sum of the even-valued Fibonacci terms below four million: 4613732
-3.  [PF-] -  Largest prime factor: 6857
+3.  [PFJ] -  Largest prime factor: 6857
 4.  [PF-] -  Largest palindrome of two 3-digit number: 906609 = 993 x 913
-5.  [PF-] -  Smallest positive evenly divisible by all 1..20: 232792560
-6.  [PF-] -  Difference: 25164150
-7.  [PF-] -  10001 prime: 104743
-8.  [PF-] -  Greatest product of five consecutive digits: 40824
+5.  [PFJ] -  Smallest positive evenly divisible by all 1..20: 232792560
+6.  [PFJ] -  Difference: 25164150
+7.  [PFJ] -  10001 prime: 104743
+8.  [PFJ] -  Greatest product of five consecutive digits: 40824
 9.  [PF-] -  a*b*c = 375*200*425 = 31875000
 10. [PF-] -  Sum of primes below 2 million: 142913828922
 11. [P--] -  Greatest product of four adjacent: 70600674
