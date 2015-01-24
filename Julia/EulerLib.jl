@@ -1,12 +1,12 @@
-
+# PRIME NUMBERS:
 
 function find_nth_prime(n)
     # A good guess of how far we have to go, to include nth prime
     max = int(ceil(1.2n * log(n)))
-    sieve_or_erastothenes(max, n)[n]
+    sieve_of_erastothenes(max, n)[n]
 end
 
-function sieve_or_erastothenes(max, n=-1)
+function sieve_of_erastothenes(max, n = -1)
     if n == -1
         n = max
     end
@@ -14,7 +14,7 @@ function sieve_or_erastothenes(max, n=-1)
     primes = Int64[]
     count = 0
     sieve = trues(max)
-    for p = 2:max
+    for p in 2:max
         if sieve[p]
             push!(primes, p)
             count =+ 1
@@ -36,7 +36,7 @@ function is_prime(n)
         return false
     end
 
-    for i = 2:floor(sqrt(n))
+    for i in 2:floor(sqrt(n))
         if rem(n, i) == 0
             return false
         end
@@ -46,10 +46,17 @@ function is_prime(n)
 end
 
 # Enumerate the multiples of n up to some strict upper bound.
-function bounded_multiples(bound, n)
-    if rem(bound, n) == 0
-        [0:n:(n * (div(bound, n) - 1))]
-    else
-        [0:n:(n * div(bound, n))]
-    end
+# function bounded_multiples(bound, n)
+#     if rem(bound, n) == 0
+#         [0:n:(n * (div(bound, n) - 1))]
+#     else
+#         [0:n:(n * div(bound, n))]
+#     end
+# end
+
+
+# STRING MANIPULATION:
+
+function is_palindrome(n::String)
+    n == reverse(n)
 end

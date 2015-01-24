@@ -12,7 +12,7 @@ function main()
     s = split(replace(readall("../data/008_input.txt"), '\n', ""), "")
     digits = map((c -> parseint(string(c))), s)
     greatest = 0
-    for (i,d) = enumerate(digits)
+    for (i,d) in enumerate(digits)
         if i < 5
             continue
         end

@@ -17,18 +17,18 @@ Status:
 1.  [PFJ] -  Sum of all the multiples of 3 or 5 below 1000: 233168
 2.  [PFJ] -  Sum of the even-valued Fibonacci terms below four million: 4613732
 3.  [PFJ] -  Largest prime factor: 6857
-4.  [PF-] -  Largest palindrome of two 3-digit number: 906609 = 993 x 913
+4.  [PFJ] -  Largest palindrome of two 3-digit number: 906609 = 993 x 913
 5.  [PFJ] -  Smallest positive evenly divisible by all 1..20: 232792560
 6.  [PFJ] -  Difference: 25164150
 7.  [PFJ] -  10001 prime: 104743
 8.  [PFJ] -  Greatest product of five consecutive digits: 40824
 9.  [PF-] -  a*b*c = 375*200*425 = 31875000
-10. [PF-] -  Sum of primes below 2 million: 142913828922
+10. [PFJ] -  Sum of primes below 2 million: 142913828922
 11. [P--] -  Greatest product of four adjacent: 70600674
 12. [PF-] -  Value of the first triangle number with over 500 divisors: 76576500 (576 divisors)
-13. [PF-] -  First ten digits of the sum: 5537376230
+13. [PFJ] -  First ten digits of the sum: 5537376230
 14. [P--] -  Longest chain has 524 elems and starts from 837799
-15. [P--] -  Number of routes: 137846528820
+15. [P-J] -  Number of routes: 137846528820
 16. [P--] -  Sum of the digits of the number 2^1000: 1366
 17. [P--] -  Letters used: 21124
 18. [P--] -  Max sum: 1074

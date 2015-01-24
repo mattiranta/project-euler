@@ -7,10 +7,8 @@ using TimeIt
 # Find the sum of all the multiples of 3 or 5 below 1000.
 ###############################################################################
 
-global firstrun = true
 
 function main()
-    global firstrun
     total = 0
     for i in 1:999
         if i % 3 == 0 || i % 5 == 0
@@ -18,11 +16,9 @@ function main()
         end
     end
 
-    if firstrun == true
-        println("Sum of multiples of 3 or 5, below 1000: $total")
-        firstrun = false
-    end
+    println("Sum of multiples of 3 or 5, below 1000: $total")
+
 end
 
-#@timeit main()
+@time main()
 

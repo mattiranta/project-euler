@@ -1,15 +1,14 @@
 include("EulerLib.jl")
 
 ###############################################################################
-# The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
-# Find the sum of all the primes below two million.
+# What is the greatest product of four adjacent numbers in the same direction 
+# (up, down, left, right, or diagonally) in the 20x20 grid?
 ###############################################################################
 
 
 function main()
-    lim = 2000000
-    n = sum(sieve_of_erastothenes(lim))
-    println("Sum of primes below $lim: $n")
+
+    println("")
 end
 
 @time main()

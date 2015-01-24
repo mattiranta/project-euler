@@ -22,20 +22,10 @@ def sum_of_primes_below(n, primes):
 
 
 def main():
-    # A good guess of how far we have to go, to include nth prime
-    max = 2000010
-    n   = 2000000
-
-    primes = sieve_of_erastothenes(max)
-
-    sum = sum_of_primes_below(n, primes)
-
-    if sum > -1:
-        print ("Sum of primes below {}: {}".format(n, sum))
-    else:
-        print("Not enough primes were calculated (last prime in sequence was {}th = {})".format(len(primes), primes[-1]))
-
-
+    n = 2000000
+    print ("Sum of primes below {}: {}".format(n, sum(sieve_of_erastothenes(n))))
+    
+    
 def main_timed():
     print("Time: {0:.25f}".format(timeit.timeit('main()', 'from ' + os.path.splitext(os.path.basename(__file__))[0] + ' import main', number=1)))
 

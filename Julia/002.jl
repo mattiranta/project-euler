@@ -8,6 +8,7 @@ include("EulerLib.jl")
 # find the sum of the even-valued terms.
 ###############################################################################
 
+
 function main()
     i1, i2 = 1, 2
     sum = 2
@@ -21,5 +22,5 @@ function main()
     println("Sum of even-valued Fibonacci terms: $sum")
 end
 
-#@time main()
+@time main()
 
